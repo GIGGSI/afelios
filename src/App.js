@@ -1,15 +1,16 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Products from './components/Products/Products';
-import Contacts from './components/Contacts/Contacts';
+import Navbar from './components/Navbar/Navbar';
+import { Routes, Route } from "react-router-dom";
+import HomePage from './components/pages/HomePage';
 
 function App() {
   return (
-    <div className="home-wrapper">
-      <Header />
-      <Products />
-      <Contacts />
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route exact path='/' element={<HomePage />} />
+      </Routes>
+    </>
   );
 }
 

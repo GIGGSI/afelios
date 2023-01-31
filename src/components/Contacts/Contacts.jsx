@@ -5,14 +5,19 @@ import { MdOutlineDeliveryDining } from 'react-icons/md'
 import './Contacts.css'
 const Contacts = () => {
     return (
-        <div className='contacts-wrapper'>
+        <div className='contacts-wrapper' id='contacts' >
             <h1 className='contacts-wrapper-title'>Свържи се с нас</h1>
             <div className='contacts-container'>
                 <p> <span><BsClock /></span>Работно време 24/7</p>
                 <p><span><MdOutlineDeliveryDining /></span>Безплатна доставка за Благоевград и Банско!</p>
 
             </div>
-            <h1 className='contacts-wrapper-phone'> За поръчки се обадете на : <span><BsTelephone /></span> 0899140304</h1>
+            <h1 className='contacts-wrapper-phone' >  <a
+                href='tel:0899140304'
+            >За поръчки се обадете на :
+                <BsTelephone /> 0899140304
+
+            </a> </h1>
 
         </div>
     )

@@ -18,7 +18,8 @@
 }
 .contacts-wrapper-phone {
   margin: 0 auto;
-
+  width: 70% ;
+  line-height: 7vw;
   text-align: center;
   color: azure;
   font-size: 5vw;
@@ -55,12 +56,13 @@
   .contacts-wrapper-phone {
     margin-top: 2vw;
     font-size: 2vw;
+    width: 70% ;
+    line-height: 2vw;
   }
- 
+
   .contacts-container p {
     margin-bottom: 1vw;
     line-height: 0.3vw;
-
   }
   .contacts-container p span {
     font-size: 1.2vw;

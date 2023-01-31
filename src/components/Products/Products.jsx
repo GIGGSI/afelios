@@ -7,7 +7,7 @@ import InfoSection from '../InfoSection/InfoSection'
 
 const Products = () => {
     return (
-        <div className='products-wrapper'>
+        <div className='products-wrapper' id='products'>
             <InfoSection />
             <div className='products-wrapper-title'>
                 <h1>Продукти</h1>
@@ -16,7 +16,6 @@ const Products = () => {
                 {productsData.map((item) => (
                     <SingleProduct key={item.id} {...item} />
                 ))}
-
             </div>
         </div>
     )
