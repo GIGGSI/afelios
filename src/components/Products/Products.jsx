@@ -3,10 +3,12 @@ import { productsData } from './ProductsConstants'
 
 import './Products.css'
 import SingleProduct from './SingleProduct/SingleProduct'
+import InfoSection from '../InfoSection/InfoSection'
 
 const Products = () => {
     return (
-        <div className='products-wrapper noisy'>
+        <div className='products-wrapper'>
+            <InfoSection />
             <div className='products-wrapper-title'>
                 <h1>Продукти</h1>
             </div>
