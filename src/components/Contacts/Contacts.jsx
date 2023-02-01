@@ -15,7 +15,7 @@ const Contacts = () => {
             <h1 className='contacts-wrapper-phone' >  <a
                 href='tel:0899140304'
             >За поръчки се обадете на :
-                <BsTelephone /> 0899140304
+                <BsTelephone /> 089706923
 
             </a> </h1>
 

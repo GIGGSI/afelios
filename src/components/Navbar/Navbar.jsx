@@ -119,7 +119,7 @@ const Navbar = () => {
 
                     <li className='save-hours-mobile'>
                         <a
-                            href='tel:0899140304'
+                            href='tel:089706923'
                         >
                             <FiPhone /> Поръчай
                         </a>
