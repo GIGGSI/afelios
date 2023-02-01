@@ -1,5 +1,5 @@
 import React from 'react'
-import headerImage from '../../assets/bg-header.jpg'
+import headerImage from '../../assets/bg-header-2.webp'
 
 import './Header.css'
 

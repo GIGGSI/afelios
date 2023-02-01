@@ -12,8 +12,7 @@
   background: black;
   opacity: 0.8;
   position: fixed;
-  /* display: flex; */
-  width:90%;
+  width: 100%;
   font-size: 1.4rem;
   top: 10;
   z-index: 999;
@@ -21,8 +20,7 @@
 
 .navbar-home-transparent {
   position: fixed;
-  /* display: flex; */
-  width: 90%;
+  width: 100%;
   font-size: 1.4rem;
   top: 10;
   z-index: 999;
@@ -30,7 +28,7 @@
 
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 80px;
   align-items: center;
 }
@@ -101,9 +99,13 @@
     overflow: hidden;
     list-style-type: none;
   }
+  .navbar-home {
+    width: 100%;
+  }
 
   .navbar-container {
     height: 70px;
+    width: 100%;
   }
 
   .nav-menu.active {
@@ -155,6 +157,8 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
+
+
 
   .fa-times {
     color: var(--primary-color);
