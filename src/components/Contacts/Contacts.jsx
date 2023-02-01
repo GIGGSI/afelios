@@ -13,9 +13,10 @@ const Contacts = () => {
 
             </div>
             <h1 className='contacts-wrapper-phone' >  <a
-                href='tel:089706923'
+                href='tel:0893706923'
             >За поръчки се обадете на :
-                <BsTelephone /> 089706923
+                <BsTelephone /> 0893706923
+
 
             </a> </h1>
 

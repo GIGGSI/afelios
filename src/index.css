@@ -15,6 +15,3 @@ a {
   color: unset;
   text-decoration: none;
 }
-a:-webkit-any-link {
-  cursor: none;
-}

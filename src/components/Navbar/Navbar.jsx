@@ -30,11 +30,9 @@ const Navbar = () => {
 
     let container = React.createRef();
     let location = useLocation();
-    console.log(location)
 
     const handleHeight = useCallback(() => {
         setNavHeigth(window.scrollY)
-
     }, [])
 
     useEffect(() => {
@@ -119,7 +117,7 @@ const Navbar = () => {
 
                     <li className='save-hours-mobile'>
                         <a
-                            href='tel:089706923'
+                            href='tel:0893706923'
                         >
                             <FiPhone /> Поръчай
                         </a>
