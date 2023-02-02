@@ -9,12 +9,12 @@ const SingleProduct = ({ title, imgPath, priceOne, priceTwo, isBallon }) => {
             <h3>{title}</h3>
             <div className='single-product-wrpaper-content'>
                 {isBallon ? <>
-                    <p>1 брой {priceOne} ст.</p>
-                    <p>100 броя: {priceTwo} лв.</p>
+                    <h5>1 брой {priceOne} ст.</h5>
+                    <h5>100 броя: {priceTwo} лв.</h5>
                 </>
                     : <>
-                        <p>Благоевград: {priceOne} лв.</p>
-                        <p>Банско: {priceTwo} лв.</p>
+                        <h5>Благоевград: {priceOne} лв.</h5>
+                        <h5>Банско: {priceTwo} лв.</h5>
                     </>}
 
             </div>

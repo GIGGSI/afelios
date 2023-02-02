@@ -19,7 +19,7 @@
   margin-top: 5vw;
 }
 
-.single-product-wrapper p {
+.single-product-wrapper h5 {
   color: aliceblue;
   text-align: center;
   font-size: 2.4vw;
@@ -46,7 +46,7 @@
     margin-top: 1vw;
   }
 
-  .single-product-wrapper p {
+  .single-product-wrapper h5 {
     font-size: 1vw;
     margin-top: 1vw;
   }

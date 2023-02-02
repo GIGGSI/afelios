@@ -10,7 +10,7 @@ const Header = () => {
                 src={headerImage}
                 alt="Парти Балони" />
                 <div className='header-wrapper-content'>
-                    <p>Топ качество на пълнители за сметана с вкус</p>
+                    <h1>Топ качество на пълнители за сметана с вкус</h1>
                 </div>
         </div>
     )

@@ -14,7 +14,7 @@
   margin-top: -30vw;
   margin-bottom: 10vw;
 }
-.header-wrapper-content p {
+.header-wrapper-content h1 {
   width: 60%;
   line-height: 5vw;
   margin: 0 auto;
@@ -35,7 +35,7 @@
     margin-top: -10vw;
     margin-bottom: 2vw;
   }
-  .header-wrapper-content p {
+  .header-wrapper-content h1 {
     width: 45%;
     line-height: 2.8vw;
     font-size: 2.2vw;

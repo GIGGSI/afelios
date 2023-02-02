@@ -8,8 +8,8 @@ const Contacts = () => {
         <div className='contacts-wrapper' id='contacts' >
             <h1 className='contacts-wrapper-title'>Свържи се с нас</h1>
             <div className='contacts-container'>
-                <p> <span><BsClock /></span>Работно време 24/7</p>
-                <p><span><MdOutlineDeliveryDining /></span>Безплатна доставка за Благоевград и Банско!</p>
+                <h3> <span><BsClock /></span>Работно време 24/7</h3>
+                <h3><span><MdOutlineDeliveryDining /></span>Безплатна доставка за Благоевград и Банско!</h3>
 
             </div>
             <h1 className='contacts-wrapper-phone' >  <a
