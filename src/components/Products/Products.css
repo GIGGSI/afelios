@@ -8,12 +8,13 @@
   background-image: url(../../assets/products-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5rem;
 }
 
 .products-wrapper-title {
   font-size: 4vw;
   color: azure;
-  margin-bottom:10vw;
+  margin-bottom: 10vw;
   margin-top: 10vw;
 }
 
@@ -28,6 +29,7 @@
 @media screen and (min-width: 768px) {
   .products-wrapper {
     margin-top: -1vw;
+    padding-bottom: 0rem;
   }
   .products-container {
     width: 80%;

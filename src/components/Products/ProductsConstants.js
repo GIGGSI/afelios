@@ -22,7 +22,7 @@ export const productsData = [
     },
     {
         id: 3,
-        title: "Пълнители за сметана с вкус 640 без вкус",
+        title: "Пълнители за сметана 640 без вкус",
         imgPath: unflavoured,
         priceOne: 55,
         priceTwo: 65,

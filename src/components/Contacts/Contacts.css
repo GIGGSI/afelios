@@ -37,6 +37,12 @@
   margin: 0 auto;
   line-height: 6vw;
   margin-bottom: 1vw;
+  
+}
+
+.contacts-container h3 {
+  margin-bottom: 5vw;
+  line-height: 7.3vw;
 }
 
 .contacts-wrapper h1 span {
@@ -47,6 +53,7 @@
 @media screen and (min-width: 768px) {
   .contacts-wrapper {
     height: 20vw;
+    margin-top: -0.3rem;
   }
   .contacts-wrapper-title {
     margin-top: 4vw;
