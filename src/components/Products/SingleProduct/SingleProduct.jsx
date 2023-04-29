@@ -2,10 +2,10 @@ import React from 'react'
 
 import './SingleProduct.css'
 
-const SingleProduct = ({ title, imgPath, priceOne, priceTwo, isBallon }) => {
+const SingleProduct = ({ title, imgPath, priceOne, priceTwo, isBallon, priceDuptnica }) => {
     return (
         <div className='single-product-wrapper'>
-            <img src={imgPath} alt={title} />
+            <img src={imgPath} alt={title} loading="lazy" />
             <h3>{title}</h3>
             <div className='single-product-wrpaper-content'>
                 {isBallon ? <>
@@ -15,6 +15,7 @@ const SingleProduct = ({ title, imgPath, priceOne, priceTwo, isBallon }) => {
                     : <>
                         <h5>Благоевград: {priceOne} лв.</h5>
                         <h5>Банско: {priceTwo} лв.</h5>
+                        <h5>Дупница: {priceDuptnica} лв.</h5>
                     </>}
 
             </div>

@@ -7,7 +7,7 @@ import './Content.css'
 const contentData = [
     {
         id: 1,
-        imagUrl:womamGiving,
+        imagUrl: womamGiving,
         title: 'Райски газ за вас!',
         subTitle: 'За да може партито да се превърне в Рай!'
 
@@ -26,7 +26,7 @@ const Content = () => {
             {contentData.map((item) => (
                 <div key={item.id} className="content-container">
                     <div className='content-image-container'>
-                        <img src={item.imagUrl} alt={item.title} />
+                        <img src={item.imagUrl} alt={item.title} loading="lazy" />
                     </div>
                     <div className={`content-info-container content-info-container-${item.id}`}>
                         <h1 className='content-info-container-title'>{item.title}</h1>
