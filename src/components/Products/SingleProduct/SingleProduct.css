@@ -35,7 +35,7 @@
   .single-product-wrapper {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 100%;
   }
   .single-product-wrpaper-content {
     margin-bottom: 2vw;
