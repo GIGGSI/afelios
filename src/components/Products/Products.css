@@ -32,10 +32,10 @@
     padding-bottom: 0rem;
   }
   .products-container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-direction: row;
     gap: 3vw;
     margin-bottom: 10vw;
