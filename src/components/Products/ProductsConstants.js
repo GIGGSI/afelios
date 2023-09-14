@@ -1,10 +1,10 @@
 // import unflavoured from '../../assets/unflavoured.jpeg'
 // import greenApple from '../../assets/green-apple.jpeg';
-import melon from '../../assets/melon.jpeg'
+// import melon from '../../assets/melon.jpeg'
 import ballon from '../../assets/balon.JPG'
-// import blubery from '../../assets/blueberry.webp'
+import blubery from '../../assets/blueberry.webp'
 // import lemon from '../../assets/lemon.webp';
-// import watermelon from '../../assets/watermelon.webp'
+import watermelon from '../../assets/watermelon.webp'
 import greenApple from '../../assets/IMG_0391.jpeg'
 import unFlaver from '../../assets/IMG_0392.jpeg'
 
@@ -15,7 +15,7 @@ export const productsData = [
         title: "Флакон с вкус - Зелена ябълка",
         imgPath: greenApple,
         priceOne: 50,
-        priceTwo: 65,
+        priceTwo: 70,
         // priceDuptnica: 45,
     },
     {
@@ -23,17 +23,25 @@ export const productsData = [
         title: "Флакон без вкус",
         imgPath: unFlaver,
         priceOne: 50,
+        priceTwo: 70,
+        // priceDuptnica: 45,
+    },
+    {
+        id: 7,
+        title: "Флакон с вкус - Диня",
+        imgPath: watermelon,
+        priceOne: 45,
         priceTwo: 65,
         // priceDuptnica: 45,
     },
-    // {
-    //     id: 7,
-    //     title: "Флакон с вкус - Диня",
-    //     imgPath: watermelon,
-    //     priceOne: 50,
-    //     priceTwo: 65,
-    //     // priceDuptnica: 45,
-    // },
+    {
+        id: 7,
+        title: "Флакон с вкус - Боровинка",
+        imgPath: blubery,
+        priceOne: 45,
+        priceTwo: 65,
+        // priceDuptnica: 45,
+    },
     // {
     //     id: 1,
     //     title: 'Пълнители за сметана с вкус 640 грама Зеленя ябълка',
