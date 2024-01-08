@@ -66,6 +66,7 @@
 
 .nav-item:hover {
   border-bottom: 2px solid #f4dfb3;
+  cursor: pointer;
 }
 
 .nav-links {
@@ -83,6 +84,12 @@
 
 .menu-icon {
   display: none;
+}
+
+.logo-font {
+  font-size: 4rem;
+  font-family: Adrip;
+  color: #bd8e2f;
 }
 
 @media screen and (max-width: 940px) {
@@ -157,8 +164,6 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
-
-
 
   .fa-times {
     color: var(--primary-color);

@@ -1,11 +1,10 @@
 import React from 'react'
-import { productsData } from './ProductsConstants'
 
 import './Products.css'
 import SingleProduct from './SingleProduct/SingleProduct'
 import InfoSection from '../InfoSection/InfoSection'
 
-const Products = () => {
+const Products = ({ products }) => {
     return (
         <div className='products-wrapper' id='products'>
             <InfoSection />
@@ -13,7 +12,7 @@ const Products = () => {
                 <h1>Продукти</h1>
             </div>
             <div className='products-container'>
-                {productsData.map((item) => (
+                {products.map((item) => (
                     <SingleProduct key={item.id} {...item} />
                 ))}
             </div>

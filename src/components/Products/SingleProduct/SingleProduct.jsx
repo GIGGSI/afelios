@@ -13,8 +13,10 @@ const SingleProduct = ({ title, imgPath, priceOne, priceTwo, isBallon, priceDupt
                     <h5>100 броя: {priceTwo} лв.</h5>
                 </>
                     : <>
-                        <h5>Благоевград: {priceOne} лв.</h5>
-                        <h5>Банско: {priceTwo} лв.</h5>
+                        {priceOne &&
+                            <h5>Благоевград: {priceOne} лв.</h5>}
+                        {priceTwo &&
+                            <h5>Банско: {priceTwo} лв.</h5>}
                         {/* <h5>Дупница: {priceDuptnica} лв.</h5> */}
                     </>}
 

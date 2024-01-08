@@ -4,8 +4,6 @@ import { useLocation, Link } from 'react-router-dom'
 
 import { scrollToSection } from '../../utils'
 
-import { HashLink } from 'react-router-hash-link';
-
 import HamburgerIcon from './HamburgerIcon/HamburgerIcon'
 
 import { FiPhone } from 'react-icons/fi'
@@ -64,11 +62,10 @@ const Navbar = () => {
     };
 
     return (
-        <div className={location.pathname === '/'
-            ? navHeight < 600 && !click
+        <div className={
+            navHeight < 600 && !click
                 ? 'navbar-home-transparent'
                 : 'navbar-home'
-            : 'navbar'
         }
         >
             <div className="navbar-container container">
@@ -79,11 +76,11 @@ const Navbar = () => {
                     onClick={closeMobileMenu}
                 >
                     <div className='navbar-logo-container'>
-                        {/* <img
-                            onClick={() => location.pathname === '/' && window.scrollTo(0, 0)}
-                            src={images.logoTerziiski}
-                            alt="Medical Center Trinity"
-                        /> */}
+                        <span
+                            className='logo-font'
+
+                            onClick={() => location.pathname === '/' && window.scrollTo(0, 0)}>
+                            AFELIOS</span>
                     </div>
 
                 </Link>
@@ -103,15 +100,12 @@ const Navbar = () => {
                                 closeMobileMenu()
                             }}
                         >
-                            <HashLink
-                                to={location.pathname !== '/' ? `/${item.footerUrl}` : '/'}
-                                onClick={() => location.pathname === '/' && scrollToSection(item.url)}
-                                scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}
-                                elementId={location.pathname === '/' ? `${item.footerUrl}` : ''}
+                            <span
+                                onClick={() => scrollToSection(item.url)}
                                 className="nav-links"
                             >
                                 {item.title}
-                            </HashLink>
+                            </span>
                         </li>
                     ))}
 
@@ -124,15 +118,12 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className='save-hours'>
-                    <HashLink
-                        to={location.pathname !== '/' ? `/#contacts` : ''}
-                        onClick={() => location.pathname === '/' && scrollToSection('contacts')}
-                        scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}
-                        // elementId={location.pathname === '/' ? `${item.footerUrl}` : ''}
+                    <span
+                        onClick={() => scrollToSection('contacts')}
                         className="nav-links"
                     >
                         <FiPhone />   <p> <span>Поръчай!</span></p>
-                    </HashLink>
+                    </span>
                 </div>
             </div>
 
