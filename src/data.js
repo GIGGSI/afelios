@@ -75,7 +75,7 @@ export const productsData = [
         title: "Флакон с вкус - Зелена ябълка",
         imgPath: greenApple,
         priceOne: 50,
-        priceTwo: 65,
+        priceTwo: 55,
         // priceDuptnica: 45,
     },
     {
@@ -83,7 +83,7 @@ export const productsData = [
         title: "Флакон без вкус",
         imgPath: unFlaver,
         priceOne: 50,
-        priceTwo: 65,
+        priceTwo: 55,
         // priceDuptnica: 45,
     },
     {
@@ -91,7 +91,7 @@ export const productsData = [
         title: "Флакон с вкус - Диня",
         imgPath: watermelon,
         priceOne: 45,
-        priceTwo: 60,
+        priceTwo: 50,
         // priceDuptnica: 45,
     },
     {
@@ -99,7 +99,7 @@ export const productsData = [
         title: "Флакон с вкус - Боровинка",
         imgPath: blubery,
         priceOne: 45,
-        priceTwo: 60,
+        priceTwo: 50,
         // priceDuptnica: 45,
     },
     // {

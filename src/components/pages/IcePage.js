@@ -16,6 +16,7 @@ const IcePage = () => {
             />
             <Products
                 products={vapesData}
+                vapes
             />
             <Contacts />
 
