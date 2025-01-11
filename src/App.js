@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route exact path='/' element={<UnderConstruction />} />
         {/* <Route path='/laughing-gas' element={<LaughingGasPage />} />
